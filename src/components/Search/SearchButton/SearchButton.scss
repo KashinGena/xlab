@@ -1,0 +1,25 @@
+@import '../../../scss/variables';
+
+.search__btn {
+    background-color: $background;
+    color: #fff;
+    
+    padding: 19px 40px 19px 88px;
+    border-radius: 10px;
+    
+    & span {
+        position: relative;
+        font-weight: $font-bold;
+        font-size: 26px;
+        line-height: 32px;
+        &::before {
+            position: absolute;
+            content: '';
+            background-image: url('../../../assets/images/search-btn.svg');
+            left:-48px;
+            top: 0;
+            height: 32px;
+            width: 32px;
+        }
+    }
+}
