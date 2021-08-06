@@ -1,0 +1,21 @@
+@import  '../../scss/variables';
+
+
+.menu__item {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    padding: 24px 0 24px $padding-inner-left;;
+    &:hover {
+        border: 2px solid $background;
+
+    }
+    &.active {
+        border-right: 6px solid $background;
+        border-radius: 5px;
+    }
+
+    &-img {
+        margin-right: 16px;
+    }
+}
