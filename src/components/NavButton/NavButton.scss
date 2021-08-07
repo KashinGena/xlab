@@ -2,20 +2,39 @@
 
 
 .menu__item {
-    align-items: center;
-    display: flex;
-    cursor: pointer;
-    padding: 24px 0 24px $padding-inner-left;;
-    &:hover {
-        border: 2px solid $background;
-
-    }
-    &.active {
-        border-right: 6px solid $background;
-        border-radius: 5px;
-    }
-
     &-img {
         margin-right: 16px;
     }
+    &-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 24px 0 24px $padding-inner-left;;
+        &:hover {
+            border: 2px solid $background;
+            padding: 22px 0 22px $padding-inner-left;
+    
+        }
+        &.active {
+            border: none;
+            border-right: 6px solid $background;
+            border-radius: 5px;
+            outline: none;
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                border: 2px solid $background;
+                border-right: 6px solid $background;
+                padding: 22px 0 22px $padding-inner-left;
+            }
+            
+        }
+    }
+    &.nested {
+        display: flex;
+        padding-left: 20px;
+    }
 }
+

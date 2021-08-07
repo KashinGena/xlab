@@ -5,6 +5,7 @@
 .App {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    line-height: 24px;
 }
 
 .container {
@@ -15,4 +16,13 @@
     flex-grow: 1;
     flex-basis: 1;
     padding: 0 32px;
+}
+
+
+.title {
+    font-weight: $font-bold;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 32px;
 }

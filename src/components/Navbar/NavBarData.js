@@ -28,42 +28,42 @@ import logout from '../../assets/images/logout.svg'
     {
         title:'Таблицы',
         icon:tabs,
-        path:'/',
+        path:'/tabs',
         nested:[]
     },
     {
         title:'Календарь',
         icon:calendar,
-        path:'/',
+        path:'/calendar',
         nested:[]
     },
     {
         title:'Карты',
         icon:maps,
-        path:'/',
+        path:'/maps',
         nested:[]
     },
     {
         title:'Виджеты',
         icon:vidgets,
-        path:'/',
+        path:'/vidgets',
         nested:[]
     },
     {
         title:'Настройки',
         icon:setup,
-        path:'/',
+        path:'/setup',
         nested:[
             {
                 title:'Настройки пользователя',
                 icon:setup_user,
-                path:'/',
+                path:'/setup/setup-user',
                 nested:[]
             },
             {
                 title:'Настройки пользователя',
                 icon:money_management,
-                path:'/',
+                path:'/setup/money-management',
                 nested:[]
             }
 
@@ -72,7 +72,7 @@ import logout from '../../assets/images/logout.svg'
     {
         title:'Выход',
         icon:logout,
-        path:'/',
+        path:'/logout',
         nested:[]
     }
 
