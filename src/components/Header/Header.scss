@@ -7,6 +7,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 100;
     background-color: $background;
     padding:16px $padding-inner-right 16px $padding-inner-left;
     color:#fff;

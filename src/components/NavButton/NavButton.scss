@@ -10,10 +10,13 @@
         display: flex;
         align-items: center;
         cursor: pointer;
-        padding: 24px 0 24px $padding-inner-left;;
+        padding: 24px 0 24px $padding-inner-left;
+        &.nested {
+            padding-left: 80px;
+        }
         &:hover {
             border: 2px solid $background;
-            padding: 22px 0 22px $padding-inner-left;
+            
     
         }
         &.active {
@@ -27,14 +30,10 @@
             &:hover {
                 border: 2px solid $background;
                 border-right: 6px solid $background;
-                padding: 22px 0 22px $padding-inner-left;
+                
             }
             
         }
-    }
-    &.nested {
-        display: flex;
-        padding-left: 20px;
     }
 }
 

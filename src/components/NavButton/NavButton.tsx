@@ -14,8 +14,8 @@ const NavButton:FC<NavButtonProps> = ({navData,isNested}) => {
     const [open,setOpened]=React.useState<Boolean>(false)
     if (!isHaveNested)
         return (
-            <li className={`menu__item ${isNested?'nested':''}`} >
-                <NavLink className="menu__item-link"
+            <li className="menu__item" >
+                <NavLink className={`menu__item-link ${isNested?'nested':''}`}
                     to={path}
                     activeClassName='active'
                     exact
@@ -29,8 +29,8 @@ const NavButton:FC<NavButtonProps> = ({navData,isNested}) => {
             
         return (
             <>
-            <li className={`menu__item ${isNested?'nested':''}`} onClick={() =>setOpened(!open)}>
-                <NavLink className="menu__item-link"
+            <li className="menu__item"  onClick={() =>setOpened(!open)}>
+                <NavLink className={`menu__item-link  ${isNested?'nested':''}`}
                     to={path}
                     activeClassName='active'
                     exact
