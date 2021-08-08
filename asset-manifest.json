@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xlab/static/css/main.ff9b5142.chunk.css",
+    "main.css": "/xlab/static/css/main.764eb7c2.chunk.css",
     "main.js": "/xlab/static/js/main.88489dfe.chunk.js",
     "main.js.map": "/xlab/static/js/main.88489dfe.chunk.js.map",
     "runtime-main.js": "/xlab/static/js/runtime-main.ead6c18f.js",
@@ -10,7 +10,7 @@
     "static/js/3.4b5eedc1.chunk.js": "/xlab/static/js/3.4b5eedc1.chunk.js",
     "static/js/3.4b5eedc1.chunk.js.map": "/xlab/static/js/3.4b5eedc1.chunk.js.map",
     "index.html": "/xlab/index.html",
-    "static/css/main.ff9b5142.chunk.css.map": "/xlab/static/css/main.ff9b5142.chunk.css.map",
+    "static/css/main.764eb7c2.chunk.css.map": "/xlab/static/css/main.764eb7c2.chunk.css.map",
     "static/js/2.1fb430b2.chunk.js.LICENSE.txt": "/xlab/static/js/2.1fb430b2.chunk.js.LICENSE.txt",
     "static/media/calendar.b438cff0.svg": "/xlab/static/media/calendar.b438cff0.svg",
     "static/media/LogInfo.scss": "/xlab/static/media/login.cdac2bb2.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.ead6c18f.js",
     "static/js/2.1fb430b2.chunk.js",
-    "static/css/main.ff9b5142.chunk.css",
+    "static/css/main.764eb7c2.chunk.css",
     "static/js/main.88489dfe.chunk.js"
   ]
 }
