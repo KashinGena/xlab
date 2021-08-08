@@ -43,9 +43,9 @@
             display: none;
         }
         &-link {
-            padding: 24px;
+            padding: 12px;
             &.nested {
-                padding:24px;
+                padding:12px;
             }
         }
         &-img {
@@ -57,7 +57,7 @@
                 justify-content: center;
                 align-items: flex-start;
                 &.active {
-                    border: 6px solid $background;
+                    border: 3px solid $background;
                 }
             }
             .menu__item-text {
