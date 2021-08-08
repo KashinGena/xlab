@@ -8,11 +8,12 @@ import setup from '../../assets/images/setup.svg'
 import setup_user from '../../assets/images/setup-user.svg'
 import money_management from '../../assets/images/money-management.svg'
 import logout from '../../assets/images/logout.svg'
+import { INavItem } from '../../types/types'
 
 
 
 
- const NavBarData = [
+ const NavBarData:INavItem[] = [
     {
         title:'Главная',
         icon:main,

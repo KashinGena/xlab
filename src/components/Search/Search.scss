@@ -6,4 +6,7 @@
     &__btn-wrapper {
         margin-left: 24px;
     }
+    @media (max-width:984px) {
+        flex-wrap: wrap;
+    }
 }

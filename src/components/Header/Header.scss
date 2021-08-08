@@ -11,32 +11,25 @@
     background-color: $background;
     padding:16px $padding-inner-right 16px $padding-inner-left;
     color:#fff;
-    font-size: $font-bold;
-
+    font-weight: $font-bold;
+    &__link {
+        text-decoration: none;
+        color: #fff;
+    }
     &__logo {
         display: flex;
         align-items: center;
-
+ 
         &-img {
             height: 48px;
             width: 48px;
             margin-right: 24px;
         }
     }
-
-    &__login {
-        position: relative;
-
-        &::before {
-            position: absolute;
-            content: '';
-            background-image: url('../../assets/images/login.svg');
-            left: -64px;
-            top:-14px;
-            width: 48px;
-            height: 48px;
-
-        }
+    @media (max-width:600px) {
+        justify-content: center;
     }
+
+
 
 }

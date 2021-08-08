@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{FC} from 'react';
+import './AddressItem.scss'
 
-const AddressItem = () => {
+interface AddressItemProps {
+    address:any
+}
+
+const AddressItem:FC<AddressItemProps> = ({address}) => {
     return (
-        <div>
-            
-        </div>
+        <li className='address-item'>
+            {address.value}
+        </li>
     );
 };
 

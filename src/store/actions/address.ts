@@ -32,7 +32,7 @@ export const fetchAddresses = (search:string) => {
                     
                      dispatch({
                          type:ActionTypes.FETCH_ADDRESSES_SUCCESS,
-                         payload:data
+                         payload:data.suggestions
                      })})
                 
             

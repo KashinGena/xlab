@@ -1,24 +1,27 @@
 @import  '../../scss/variables';
 
-
 .menu__item {
     &-img {
         margin-right: 16px;
+        width: 32px;
+        height: 32px;
     }
+
     &-link {
         text-decoration: none;
         display: flex;
         align-items: center;
         cursor: pointer;
         padding: 24px 0 24px $padding-inner-left;
+        color: #1C1C1E;
+        font-weight: $font-medium;
         &.nested {
             padding-left: 80px;
         }
         &:hover {
             border: 2px solid $background;
-            
-    
         }
+
         &.active {
             border: none;
             border-right: 6px solid $background;
@@ -33,6 +36,37 @@
                 
             }
             
+        }
+    }
+    @media (max-width:768px) {
+        &-text {
+            display: none;
+        }
+        &-link {
+            padding: 24px;
+            &.nested {
+                padding:24px;
+            }
+        }
+        &-img {
+            margin-right: 0;
+        }
+        &.toggle {
+            width: 100%;
+            .menu__item-link {
+                justify-content: center;
+                align-items: flex-start;
+                &.active {
+                    border: 6px solid $background;
+                }
+            }
+            .menu__item-text {
+                display: block;
+                text-align: center;
+            }
+            .menu__item-img {
+                margin-right: 16px;
+            }
         }
     }
 }
